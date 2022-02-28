@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorAccent"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:background="#888585"
+    android:layout_margin="15dp"
+    android:id="@+id/viewpager"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:text="The Digital Revolution is just starting. A working Quantum Computer could arrive within the next 10 years. It will enable exponential jumps in computing power. Artificial intelligence will outperform humans in many activities in the next 10 years."
+    android:id="@+id/alpha"
+    android:textColor="#FFFFFF"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/search">
+        <EditText
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/auto"
+            android:background="@android:color/transparent"/>
+        <Button
+            android:background="@drawable/ic_baseline_search_24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+
+                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:background="@drawable/gogglelogo"
+                />
+            <Button
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:background="@drawable/youtubelogo"
+                />
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:background="@drawable/amazon"
+                />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:background="@drawable/facebooklogo"
+                />
+            <Button
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:background="@drawable/instagramlogo"
+                />
+            <Button
+
+                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:background="@drawable/punch"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:background="@drawable/alibaba"
+                />
+            <Button
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:background="@drawable/wiki"
+                />
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:background="@drawable/stack"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
